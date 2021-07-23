@@ -1,9 +1,8 @@
 {
-    "name": "Pukima Theme",
-    "description": "The Theme for & from Pukima",
-    "version": "0.1.0",
+    "name": "Space Cadet",
+    "description": "The first Theme from Pukima",
+    "version": "0.1.1",
     "author": "Pukima",
     "theme": "app.scss",
-    "consent": "false",
     "license": "MIT"
 }
