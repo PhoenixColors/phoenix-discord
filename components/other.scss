@@ -1,0 +1,149 @@
+// -----Titlebar-----
+@import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
+.wordmarkWindows-1v0lYD {
+    display: var(--wordmark)
+}
+
+// Old Font
+.wordmark-2iDDfm svg {width: 0px;}
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Discordinated";
+    content: "Discord";
+    top: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--wordmark-text-color);
+    height: 19px;
+    width: 235px;
+    transform: translateY(-8%);
+    line-height: 20px;
+}
+
+.sidebar-CFHs9e {
+    width: fit-content;
+}
+
+// ---Win Buttons---
+.winButtonClose-1HsbF-:hover {
+    background-color: #ff605a;
+  }
+  .winButtonMinMax-PBQ2gm:nth-child(3):hover {
+    background-color: #28cd42;
+    color: white;
+  }
+  .winButtonMinMax-PBQ2gm:nth-child(4):hover {
+    background-color: #ffbe30;
+    color: white;
+  }
+
+// -----Remove some scrollbars-----
+// --Thin Scrollbars (MemberList & ChannelList) --
+.thin-1ybCId::-webkit-scrollbar {
+    display: none;
+}
+
+// -----Status-----
+:root .root-3QyAh1 .topSection-y3p-_D > header .header-4zuFdR .mask-1l8v16 foreignObject {
+    mask: none;
+    border-radius: var(--avatar-radius);
+}
+
+// -----Gifts-----
+.tile-2OwFgW {
+    transform: translateZ(0);
+    overflow: hidden;
+    background-color: var(--background-secondary) !important;
+
+    &:hover { background: var(--background-secondary-alt) !important;}
+
+    .invalidPoop-pnUbq7 {
+        background: var(--background-secondary-alt-alt);
+        position: relative;
+
+        &::after {
+            content: ">_<";
+            animation: blink 2.5s;
+            animation-iteration-count: infinite;
+            font-size: 50px;
+            color: var(--textcolor);
+            position: absolute;
+            top:50%; left:50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+  
+    .description-1RsfgZ { 
+        color: #fff;
+
+        .tagline-2nvxi0 { color: #eee;}
+    }
+
+    .splash-3K76bN {
+        content: "";
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-image: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        z-index: -1; opacity: .3;
+        filter: blur(20px);
+        mask-image: linear-gradient(#000b, #000b); // vscode thing
+        -webkit-mask-image: linear-gradient(#000b, #000b);
+    }
+}
+
+// masks are wild
+.mask-1l8v16 {
+    img {
+        border-radius: 0 !important;
+    }
+
+    foreignObject {
+        mask: none !important;
+        border-radius: var(--avatar-radius) !important;
+    }
+}
+
+// Status masks
+.pointerEvents-2zdfdO {
+    mask: none !important;
+    rx: 30;
+
+    &[mask="url(#svg-mask-status-typing)"] { rx: 6;}
+    &[mask="url(#svg-mask-status-online-mobile)"] { rx: 4;}
+}
+
+// ---Coloring---
+.colorGrey-2DXtkV { background-color: #4E5D94 !important }
+
+.colorPrimary-3b3xI6 { background-color: var(--background-primary) !important }
+
+.paymentPane-3bwJ6A, .payment-xT17Mq, .paginator-166-09, .codeRedemptionRedirect-1wVR4b { background-color: var(--background-secondary) !important; border: none; }
+.bottomDivider-1K9Gao { border-color: var(--background-primary) !important;}
+
+.bar-2Qqk5Z { background: var(--background-secondary-alt) !important; }
+
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC { background-color: var(--background-secondary) !important; border-color: var(--background-secondary-alt); }
+
+.css-gvi9bl-control { border-color: var(--background-secondary-alt); }
+
+// Send a Gift Popout
+.root-1gCeng {
+    box-shadow: none !important;    
+}
+
+.footer-2gL1pp {
+    background-color: var(--background-tertiary) !important;
+    box-shadow: none !important;
+}
+
+// -----Animations-----
+@keyframes blink {
+    79% { content: ">_<";}
+    80% { content: "-_-";}
+    90% { content: ">_<";}
+    100% { content: "-_-";}
+}

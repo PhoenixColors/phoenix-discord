@@ -1,0 +1,9 @@
+{
+    "name": "Pukima Theme",
+    "description": "The Theme for & from Pukima",
+    "version": "0.1.0",
+    "author": "Pukima",
+    "theme": "app.scss",
+    "consent": "false",
+    "license": "MIT"
+}

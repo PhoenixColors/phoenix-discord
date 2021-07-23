@@ -1,0 +1,147 @@
+// ----- Unthemed -----
+// -Create Text Channel Popout-
+.modal-2VIBV8 {
+    background-color: var(--background-primary) !important;
+}
+
+// -URL Popoup-
+.root-1gCeng {
+     background-color: var(--background-secondary) !important;
+}
+
+// -Spotify Embed-
+.invite-18yqGF {
+    background: var(--background-secondary) !important;
+    border: none;
+
+    &:hover {
+        background: var(--background-secondary-alt) !important;
+    }
+}
+
+// -Invite-
+.wrapper-35wsBm {
+
+    &:hover {
+        background-color: var(--background-secondary-alt) !important;
+    }
+}
+
+// Nitro Boosts
+.perksModal-fSYqOq {
+    background-color: var(--background-primary) !important;
+    
+    // Bar
+    .barBackground-2EEiLw {
+        background-color: var(--background-tertiary);
+    }
+
+    .tierMarkerGroup-xg6A1d {
+        .tierMarkerBackground-3q29am {
+            background-color: var(--background-primary);
+        }
+
+        .tierMarkerInProgress-24LMzJ {
+            background: rgba(18, 19, 31) !important;
+        }
+    }
+
+    // Tier Cards
+    .tierHeaderLocked-1s2JJz {
+        background-color: var(--background-floating);
+    }
+
+    .tierBody-16Chc9 {
+        background-color: var(--background-tertiary);
+    }
+
+    .perk-2WeBWW {
+        background-color: var(--background-secondary);
+    }
+}
+
+// -Delete Popout-
+.message-2qRu38 {
+    background-color: var(--background-primary) !important;
+}
+
+// Chat Window
+.content-98HsJk {
+    padding: 8px;
+}
+
+.scroller-1Bvpku {
+    top: 8px;
+    height: calc(100% - 8px);
+}
+
+.sidebar-2K8pFh {
+    border-bottom-left-radius: 8px !important;
+}
+
+.chat-3bRxxu {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+// ------Mentions------
+.message-2qnXI6.mentioned-xhSam7 {
+    background-color: var(--mention-color-background);
+
+    &::before {
+        background: var(--mention-color-bar);
+        padding: 1px;
+    }
+
+    &:hover {
+        background-color: var(--mention-color-hover) !important;
+    }
+}
+
+// ---Sticker---
+.clickableSticker-3HmpgV {
+    .assetWrapper-3GNt0z {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+// ------Chatbar----- 
+
+// Autocompletion
+.autocomplete-1vrmpx {
+    background-color: var(--background-secondary-alt) !important;
+
+    .selected-1Tbx07 {
+        background-color: var(--background-secondary) !important;
+    }
+}
+
+// Disabled Channels (you cant write in them) 
+.innerDisabled-1YTFPN {
+    display: none;
+}
+
+
+// Hides Cooldown Text and just shows Cooldown Icon 
+.cooldownWrapper-3joyFc{
+    font-size: 0;
+}
+.slowModeIcon-1BPDC_{
+    margin: 0;
+}
+
+// ---Upload Popup---
+.uploadModal-2ifh8j {
+    background-color: var(--background-primary) !important;
+
+    .footer-3mqk7D {
+        background-color: var(--background-secondary) !important;
+        box-shadow: none;
+    }
+}
+
+// -----Voicechat-----
+.container-1giJp5 {
+    border-bottom: none;
+}

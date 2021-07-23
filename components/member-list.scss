@@ -1,0 +1,203 @@
+:root {
+
+.bannerPremium-2hSAwz {
+  background-color: transparent !important;
+}
+
+// -- User Popout --
+.userPopout-xaxa6l {
+  .avatarPositionPremium-3We5Ho {
+    top: 0px;
+  }
+
+  .divider-ewBQKj {
+    display: none;
+  }
+
+  .avatar-37jOim {
+    border: 6px solid transparent;
+    background-color: transparent;
+  }
+
+  .avatarWrapperNormal-26WQIb {
+    top: 125px;
+    left: 33%;
+  }
+
+  .popoutBanner-19WKGg {
+    height: 120px;
+  }
+
+  .bannerPremium-2hSAwz {
+    z-index: 2;
+  }
+
+  .headerTop-3vNv-a {
+    padding-top: 100px;
+
+    .profileBadges-ohc0Vu {
+      position: static;
+      top: unset;
+      right: unset;
+      justify-content: center;
+      max-width: 100%;
+    }
+
+    .headerText-1vVs-U {
+      text-align: center;
+    }
+  }
+
+  .customStatus-oN4ZZY {
+    text-align: center;
+  }
+
+  .aboutMeSection-1Fw5Ia {
+    text-align: center;
+
+    .aboutMeTitle-1IYtPE {
+      margin-left: 39%;
+    }
+  }
+
+	overflow: hidden;
+	transform: translateZ(0) !important;
+	--usrbg-banner-height: 120px;
+	&:not([style*="-user-"]) {
+		.avatar-37jOim {
+			z-index: 1;
+			&::after {
+				content: '';
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				z-index: -1;
+				height: var(--USRBG-banner-height, 120px);
+				pointer-events: none;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: var(--user-popout-position, center) center;
+				background-image: var(--user-background);
+			}
+		}
+		.avatarHint-2A3RNb {
+			display: none;
+		}
+
+    // Activity
+    .activity-2INFPu {
+      background-color: var(--background-accent);
+      padding: 10px;
+      border-radius: 3px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+
+      .headerTextNormal-2mGWX3 {
+        color: #dadada;
+      }
+    }
+	}
+
+  // Body
+  .body-3HBlXn {
+
+    // Activities
+    .activity-2INFPu {
+
+        // Spotify icon
+        .spotifyIcon-2J9kSv {
+          display: none;
+        }
+    }
+    .bodyInnerWrapper-26fQXj {
+        .role-2irmRk {
+            position: relative;
+            overflow: hidden;
+            z-index: 1; border: none;
+            padding: 5px;
+
+            .roleCircle-3xAZ1j::before {
+                content: "";
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                background: inherit;
+                opacity: .2; z-index: -1;
+                pointer-events: none;
+            }
+        }
+    } 
+}
+}
+
+// -----Status-----
+// ---Modal---
+.root-1gCeng {
+  // Connections
+  .connectedAccounts-QlRa4m {
+    img[alt="Battle.net Logo"]:before {
+      content: "";
+      width: 264px;
+      height: 48px;
+      background-color: blue;
+    }
+  }
+
+  .topSection-y3p-_D {
+      .header-4zuFdR {
+        .avatar-AvHqJA {
+          background-color: transparent;
+          border-color: transparent;
+        }
+      }
+    }
+  }
+
+  header {
+    .banner-2QYc2d {
+      height: 240px;
+    }
+
+    .profileBannerPremium-35utuo {
+      z-index: 1;
+    }
+
+    transform: translateZ(0);
+    .wrapper-3t9DeA {
+      & > svg {
+        z-index: 2;
+      }
+
+      &::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 240px;
+        pointer-events: none;
+        background: var(--user-background) center/cover no-repeat;
+      }
+    }
+  }
+  .headerInfo-30uryT {
+    position: relative;
+    z-index: 1;
+  }  
+
+  .body-r6_QPy {
+    .spotifyIcon-2J9kSv {
+      display: none;
+    }
+  }
+}
+
+// -----Avatars-----
+.wrapper-3t9DeA, .avatar-1BDn8e, .profile-1eT9hT .avatarUploaderInner-3UNxY3,
+.voiceAvatar-14IynY, .avatar-3tNQiO, .border-Jn5IOt, .avatar-3bWpYy, .clickableAvatar-1wQpeh,
+.emptyUser-7txhlW, .avatar-VxgULZ, .wrapper-2QE8vf.ringingIncoming-38YcLn::after,
+.wrapper-2QE8vf.ringingOutgoing-mbXhhQ::after, .replyAvatar-1K9Wmr, .avatarSpeaking-2c8-9i,
+.avatar-3Heyg_, .avatarContainer-2LLZwy, .appAvatar-3bgkQ9, .avatarWrapper-3r9PdD, .avatarWrapper-2yR4wp {
+border-radius: var(--avatar-radius) !important;
+}

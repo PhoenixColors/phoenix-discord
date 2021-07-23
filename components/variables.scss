@@ -1,0 +1,59 @@
+// Modify anything here to customize you theme
+:root {
+    // Wordmark
+    --wordmark: none; // none = invisble; unset = visible
+
+    // Avatar roundness
+    --avatar-radius: 8px; // >50px = round
+
+    // Server roundess
+    --server-radius: 25px; // >25px = round
+
+    // Mention color in chat
+    --mention-color-bar: #f9a075;
+    --mention-color-background: #f9a1751f;
+    --mention-color-hover: #f9a17525;
+
+    // Other stuff
+    --textcolor: #dadada;
+}
+
+// -- Discord variables --
+.theme-dark {
+    --background-tertiary: #10101b;
+    --background-secondary: #1e1e31;
+    --background-secondary-alt: #1c1c2c;
+    --background-primary: #272942;
+    --background-mobile-primary: #272942;
+    --background-mobile-secondary: #1e1e31;
+    --channeltextarea-background: #1c1c2c;
+    --background-accent: #6E85D3;
+    --background-message-hover: transparent;
+    --background-modifier-hover: #1f1f31;
+    --background-modifier-active: #1f1f31;
+    --background-modifier-selected: #1c1c2c;
+    --deprecated-card-bg: #12131f63;
+    --background-floating: #1b1b2e;
+    --deprecated-quickswitcher-input-background:#11101b;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #151520;
+    --scrollbar-auto-track: #1c1c2c;
+    --scrollbar-thin-thumb: #151520;
+    --toast-background: #1e1e31 !important;
+    --toast-header: #10101b !important;
+    --toast-contents: #272942 !important;
+    --activity-card-background: #10101b;
+}
+
+.theme-light { // I don't support light theme it's just for the "Create a server" popup
+    --background-tertiary: #10101b;
+    --background-secondary: #1e1e31;
+    --background-secondary-alt: #1c1c2c;
+    --background-primary: #272942;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #262641;
+    --background-modifier-active: #262641;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+}

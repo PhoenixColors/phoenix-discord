@@ -1,0 +1,48 @@
+// ------ Server Border Radius ------
+.wrapper-25eVIn foreignObject { mask: none; -webkit-mask: none;}
+.wrapperSimple-19ogV2 { overflow: visible;}
+
+.wrapperSimple-19ogV2, .wrapper-25eVIn foreignObject,
+.folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe,
+.expandedFolderBackground-2sPsd-,
+.flexChild-faoVW3 .avatarUploaderInner-3UNxY3 {
+  border-radius: var(--server-radius);
+}
+
+.iconInactive-98JN5i { border-radius: calc(var(--server-radius) - 4px);}
+
+.wrapper-25eVIn foreignObject { 
+  transition: border-radius 200ms;
+
+  &:hover foreignObject { border-radius: calc(var(--server-radius) - 3px);}
+}
+
+
+// - Red mutetext wit a Icon -
+.muteText-gutGxh {
+    color: rgb(255, 53, 53);
+    margin-top: 3px;
+    margin-left: 1.5px;
+    background: url('https://svgshare.com/i/WEo.svg') no-repeat;
+    background-size: 23px;
+
+    // Invisible Characters to push the Text 
+    &:before {
+        content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
+    }
+}
+
+// --- Create new Server Popout ---
+.container-1CE3eW {
+    background: var(--background-secondary);
+    border-radius: 5px;
+}
+
+.contents-18-Yxp {
+    color: var(--textcolor);
+}
+
+// --- Discover Servers ---
+.pageWrapper-1PgVDX {
+    background-color: var(--background-primary) !important;
+}

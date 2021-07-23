@@ -1,0 +1,12 @@
+@forward 'components/chat';
+@forward 'components/friends';
+@forward 'components/member-list';
+@forward 'components/server-list';
+@forward 'components/variables';
+@forward 'components/other';
+@forward 'components/plugins';
+@forward 'components/settings';
+
+// Imports
+@import url("https://goose-nest.github.io/GT-RevertRebrand/src/main.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
