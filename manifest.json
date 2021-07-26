@@ -1,8 +1,12 @@
 {
+    "icon": "assets/icon.png",
     "name": "Space Cadet",
     "description": "The first Theme from Pukima",
-    "version": "0.1.3",
-    "author": "Pukima",
+    "version": "0.1.4",
+    "author": {
+        "name": "Pukima",
+        "id": "751092600890458203"
+    },
     "license": "MIT",
     "theme": "app.scss"
 }
