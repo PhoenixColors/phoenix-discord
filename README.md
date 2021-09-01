@@ -1,11 +1,7 @@
-# ![Icon](assets/icon_small.png) Space Cadet
+# <img src="https://git.pukima.site/repo-avatars/8-0fe8f4ba67a3c4c53b2211dd4b0922ae" height="32px"> Phoenix
 ![Preview](assets/preview.png)
 
 ---
-
-Heya! This is my first Theme and the Name of the Theme is the Name of the Primary Color.
-
-![Space Cadet Color](assets/color_name.png)
 
 ## ⚠️ NOTE
 This Theme is in Beta and there might be bugs and maybe the Theme will not stay how it looks in some parts. If you wanna report Unthemed Parts or any other Bugs please open a Issue (or make a PR which is much easier for me)!
