@@ -1,4 +1,4 @@
-# <img src="https://git.pukima.site/repo-avatars/8-0fe8f4ba67a3c4c53b2211dd4b0922ae" height="32px"> Phoenix
+# <img src="https://git.pukima.site/avatars/d6914806bd706f2b64cbeb7dbee9db45" height="32px"> Phoenix
 ![Preview](assets/preview.png)
 
 ---
