@@ -14,7 +14,10 @@ This Theme is in Beta and there might be bugs and maybe the Theme will not stay 
 
 ## 📥 Installation
 ### 🔌 Powercord
-`git clone https://github.com/Pukimaa/Space-Cadet` in your Themes Folder
+`git clone https://github.com/Pukimaa/phoenix-discord` in your Themes Folder
+
+### 🦆 GooseMod
+Use the built in Store
 
 ## ️️️❤️ Credits
 * I was taking a lot of Inspiration of [Couve](https://github.com/NYRI4/Couve) and [Comfy](https://github.com/NYRI4/Comfy/) by Nyria. Share some love with him!
