@@ -1,8 +1,30 @@
 # Changelog
->All notable changes to "Space Cadet" will be documented in this file.
+>All notable changes to "Phoenix" will be documented in this file.
 >
 >The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.1.5] - 2021-9-06
+Contributors:
+[@Pukimaa](https://github.com/Pukimaa)
+### Added
+- Instructions for Vizality
+### Changed
+- New name also in the Changelog
+### Fixed
+- Fixed invalid manifest file for VZ
+
+## [0.1.4] - 2021-09-??
+Contributors:
+[@Pukimaa](https://github.com/Pukimaa)
+## Added
+- Instructions for GooseMod
+- New Icon for the Theme
+- updated README.md with new local icon
+## Changed
+- New Name (Phoenix)
+## Removed
+- old Icons
 
 ## [0.1.3] - 2021-07-26
 Contributors: [@Pukimaa](https://github.com/Pukimaa)

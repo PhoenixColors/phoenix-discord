@@ -1,4 +1,4 @@
-# <img src="https://git.pukima.site/avatars/d6914806bd706f2b64cbeb7dbee9db45" height="32px"> Phoenix
+# <img src="assets/icon.png" height="32px"> Phoenix
 ![Preview](assets/preview.png)
 
 ---
@@ -15,6 +15,9 @@ This Theme is in Beta and there might be bugs and maybe the Theme will not stay 
 ## 📥 Installation
 ### 🔌 Powercord
 `git clone https://github.com/Pukimaa/phoenix-discord` in your Themes Folder
+
+### ⚪ Vitality
+Should be the same as Powercord
 
 ### 🦆 GooseMod
 Use the built in Store
