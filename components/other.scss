@@ -96,11 +96,7 @@
 }
 
 // masks are wild
-.mask-1l8v16 {
-    img {
-        border-radius: 0 !important;
-    }
-
+.mask-1l8v16, .wrapper-2QE8vf {
     foreignObject {
         mask: none !important;
         border-radius: var(--avatar-radius) !important;

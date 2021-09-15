@@ -1,3 +1,8 @@
+// Powercord --- Theme Toggler
+.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"],
+.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"] ~ div { order: 3 }
+.side-8zPYf6 > div[data-item-id="theme-toggler"] { order: 2 !important; }
+
 // Powercord --- Spotify
 .powercord-spotify {
     .button-14-BFJ.enabled-2cQ-u7:hover {
@@ -6,7 +11,7 @@
 
     .spotify-seek-bar-progress {
         position: absolute;
-        height: 56px;
+        height: 56px !important;
         transition: .2s;
         bottom: 0px;
         z-index: -1;
@@ -16,12 +21,17 @@
 
 .powercord-spotify.hover {
     .spotify-seek-bar-progress {
-        height: 83px;
-        transition: .25s;
+        height: 83px !important;
+        transition: .2s;
     }
 }
 
 // Powercord --- Donator
 .modal-yWgWj- {
     background-color: var(--background-secondary) !important;
+}
+
+// Powercord --- Clock
+.powerclock.sticky {
+    top: -10px !important;
 }

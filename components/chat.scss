@@ -9,6 +9,11 @@
      background-color: var(--background-secondary) !important;
 }
 
+// Slash Command Headers
+.categoryHeader-O1zU94 {
+    background-color: var(--background-secondary);
+}
+
 // -Spotify Embed-
 .invite-18yqGF {
     background: var(--background-secondary) !important;
@@ -77,11 +82,25 @@
 
 .sidebar-2K8pFh {
     border-bottom-left-radius: 8px !important;
+    border-top-left-radius: 8px !important;
 }
 
 .chat-3bRxxu {
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+// Search
+.theme-dark .container-3ayLPN{
+    background: var(--background-secondary);
+
+    .option-96V44q:after {
+        display: none;
+    }    
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: var(--background-secondary-alt);
 }
 
 // ------Mentions------
