@@ -1,5 +1,5 @@
 :root {
-  --wordmark: unset;
+  --wordmark: none;
   --avatar-radius: 8px;
   --server-radius: 25px;
   --mention-color-bar: #f9a075;

@@ -4,7 +4,7 @@
  * @description Glow up while chatting
  * @author Pukima
  * @authorId 751092600890458203
- * @version 0.3.0
+ * @version 0.3.1
  * @updateURL https://pukimaa.github.io/phoenix-discord/phoenix.theme.css
  * @website https://pukimaa.github.io/phoenix-discord/
  * @invite ngkUdXQZ8P
@@ -12,20 +12,20 @@
  *
  */
  /* Imports */
-@import url('https://pukimaa.github.io/phoenix-discord/components/chat.css');
-@import url('https://pukimaa.github.io/phoenix-discord/components/friends.css');
-@import url('https://pukimaa.github.io/phoenix-discord/components/member-list.css');
-@import url('https://pukimaa.github.io/phoenix-discord/components/server-list.css');
-@import url('https://pukimaa.github.io/phoenix-discord/components/other.css');
-@import url('https://pukimaa.github.io/phoenix-discord/components/plugins.css');
-@import url('https://pukimaa.github.io/phoenix-discord/components/settings.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/chat.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/friends.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/member-list.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/server-list.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/other.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/plugins.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/settings.css');
 
 @import url("https://goose-nest.github.io/GT-RevertRebrand/src/main.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 
 /* Variables for you to change */
 :root {
-    --wordmark: unset;
+    --wordmark: none;
     --avatar-radius: 8px;
     --server-radius: 25px;
     --mention-color-bar: #f9a075;

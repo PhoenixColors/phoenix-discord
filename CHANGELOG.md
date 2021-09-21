@@ -4,7 +4,18 @@
 >The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.3.0] - 2021-9-06
+## [0.3.1] - 2021-09-21
+Contributors: [@Pukimaa](https://github.com/Pukimaa)
+### Changed
+- Info in the Settings
+- Default var for wordmark is now `none`
+### Fixed
+- wrong import urls for the components
+- wrong date in CHANGELOG for [0.3.0](#030---2021-9-06)
+### Removed
+- Variables CSS file
+
+## [0.3.0] - 2021-9-21
 Contributors: [@Pukimaa](https://github.com/Pukimaa)
 ### Added
 - Support for BetterDiscord
