@@ -11,7 +11,7 @@ Contributors: [@Pukimaa](https://github.com/Pukimaa)
 - Default var for wordmark is now `none`
 ### Fixed
 - wrong import urls for the components
-- wrong date in CHANGELOG for [0.3.0](#030---2021-9-06)
+- wrong date in CHANGELOG for [0.3.0](#030---2021-9-21)
 ### Removed
 - Variables CSS file
 
