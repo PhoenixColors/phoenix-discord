@@ -1,7 +1,7 @@
 {
     "name": "Phoenix",
     "description": "Glow up while chatting",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "author": "Pukima",
     "license": "MIT",
     "theme": "app.scss"
