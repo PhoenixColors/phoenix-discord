@@ -4,6 +4,15 @@
 >The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.3] - 2021-09-22
+Contributors: [@Pukimaa](https://github.com/Pukimaa)
+## Changed
+- Renamed `plugin` component to `support` because it is not just for plugins
+## Fixed
+- Fixed weird behaviour on channel mentions
+## Removed
+- Removed CSS maps
+
 ## [0.3.2] - 2021-09-21
 Contributors: [@Pukimaa](https://github.com/Pukimaa)
 ## Added
@@ -25,6 +34,11 @@ Contributors: [@Pukimaa](https://github.com/Pukimaa)
 ### Added
 - Support for BetterDiscord
 - CSS Support
+
+## [0.3.0] - 2021-9-15
+Contributors: [@Pukimaa](https://github.com/Pukimaa)
+### Commit
+- 869a463d7689a27b0bab8d20931ad2d8d7852b0f
 
 ## [0.1.5] - 2021-9-06
 Contributors:

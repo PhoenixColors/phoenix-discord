@@ -4,9 +4,9 @@
  * @description Glow up while chatting
  * @author Pukima
  * @authorId 751092600890458203
- * @version 0.3.2
- * @updateURL https://pukimaa.github.io/phoenix-discord/phoenix.theme.css
- * @website https://pukimaa.github.io/phoenix-discord/
+ * @version 0.3.3
+ * @updateURL https://pukimaa.github.io/phoenix-discord/components/phoenix.theme.css
+ * @website https://pukimaa.github.io/phoenix-discord/components/
  * @invite ngkUdXQZ8P
  * @donate https://ko-fi.com/pukima
  *
@@ -17,7 +17,7 @@
 @import url('https://pukimaa.github.io/phoenix-discord/components/css/member-list.css');
 @import url('https://pukimaa.github.io/phoenix-discord/components/css/server-list.css');
 @import url('https://pukimaa.github.io/phoenix-discord/components/css/other.css');
-@import url('https://pukimaa.github.io/phoenix-discord/components/css/plugins.css');
+@import url('https://pukimaa.github.io/phoenix-discord/components/css/support.css');
 @import url('https://pukimaa.github.io/phoenix-discord/components/css/settings.css');
 
 @import url("https://goose-nest.github.io/GT-RevertRebrand/src/main.css");
