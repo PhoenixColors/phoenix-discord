@@ -1,11 +1,11 @@
-@forward 'css/chat';
-@forward 'css/friends';
-@forward 'css/member-list';
-@forward 'css/server-list';
-@forward 'css/variables';
-@forward 'css/other';
-@forward 'css/support';
-@forward 'css/settings';
+@forward 'components/chat';
+@forward 'components/friends';
+@forward 'components/member-list';
+@forward 'components/server-list';
+@forward 'components/variables';
+@forward 'components/other';
+@forward 'components/support';
+@forward 'components/settings';
 
 // Imports
 @import url("https://goose-nest.github.io/GT-RevertRebrand/src/main.css");
