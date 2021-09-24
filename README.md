@@ -16,7 +16,7 @@ This Theme is in Beta and there might be bugs and maybe the Theme will not stay 
 ### 🔌 Powercord
 `git clone https://github.com/Pukimaa/phoenix-discord` in your Themes Folder
 
-### ⚪ Vitality
+### ⚪ Vizality
 Should be the same as Powercord
 
 ### 🦆 GooseMod
