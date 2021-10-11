@@ -40,10 +40,9 @@
   text-align: center;
 }
 :root .userPopout-xaxa6l .customStatus-oN4ZZY {
+  display: flex;
+  justify-content: center;
   text-align: center;
-}
-:root .userPopout-xaxa6l .customStatus-oN4ZZY .customStatusEmoji-3a2-Zo {
-  margin: 0;
 }
 :root .userPopout-xaxa6l .aboutMeSection-1Fw5Ia {
   text-align: center;
@@ -149,4 +148,33 @@
 .wrapper-2QE8vf.ringingOutgoing-mbXhhQ::after, .replyAvatar-1K9Wmr, .avatarSpeaking-2c8-9i,
 .avatar-3Heyg_, .avatarContainer-2LLZwy, .appAvatar-3bgkQ9, .avatarWrapper-3r9PdD, .avatarWrapper-2yR4wp, .wrapper-2QE8vf, .wrapper-2QE8vf > foreignObject {
   border-radius: var(--avatar-radius) !important;
+}
+
+.userPopout-xaxa6l[data-user-id] .banner-2QYc2d, .userPopout-xaxa6l[vz-user-id] .banner-2QYc2d,
+.root-3QyAh1[data-user-id], .root-3QyAh1[vz-user-id] .banner-2QYc2d {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: var(--user-popout-position, center) center;
+  background-image: var(--user-background);
+}
+.userPopout-xaxa6l[data-user-id] .banner-2QYc2d .header-QKLPzZ, .userPopout-xaxa6l[vz-user-id] .banner-2QYc2d .header-QKLPzZ,
+.root-3QyAh1[data-user-id] .header-QKLPzZ, .root-3QyAh1[vz-user-id] .banner-2QYc2d .header-QKLPzZ {
+  transform: translateZ(0);
+}
+.userPopout-xaxa6l[data-user-id] .banner-2QYc2d .header-QKLPzZ .wrapper-3t9DeA::before, .userPopout-xaxa6l[vz-user-id] .banner-2QYc2d .header-QKLPzZ .wrapper-3t9DeA::before,
+.root-3QyAh1[data-user-id] .header-QKLPzZ .wrapper-3t9DeA::before, .root-3QyAh1[vz-user-id] .banner-2QYc2d .header-QKLPzZ .wrapper-3t9DeA::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.25;
+  pointer-events: none;
+  background: var(--user-background) center/cover no-repeat;
+}
+.userPopout-xaxa6l[data-user-id] .banner-2QYc2d .headerInfo-30uryT, .userPopout-xaxa6l[vz-user-id] .banner-2QYc2d .headerInfo-30uryT,
+.root-3QyAh1[data-user-id] .headerInfo-30uryT, .root-3QyAh1[vz-user-id] .banner-2QYc2d .headerInfo-30uryT {
+  position: relative;
+  z-index: 1;
 }

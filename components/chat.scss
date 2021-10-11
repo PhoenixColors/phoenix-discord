@@ -32,6 +32,11 @@
     }
 }
 
+// Invite Modal
+.contentWrapper-3WC1ID {
+    background: var(--background-secondary-alt) !important;
+}
+
 // Nitro Boosts
 .perksModal-fSYqOq {
     background-color: var(--background-primary) !important;
@@ -99,7 +104,8 @@
     }    
 }
 
-.theme-dark .option-96V44q.selected-rZcOL- {
+.theme-dark .option-96V44q.selected-rZcOL-,
+.queryContainer-RKFJW-:hover {
     background-color: var(--background-secondary-alt);
 }
 
