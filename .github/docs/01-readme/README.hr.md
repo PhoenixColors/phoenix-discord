@@ -7,7 +7,7 @@
 Ova tema je u beta procesu i možda ćete naići na bugove i možda tema neće ostati ista u drugim dijelovima. Ako želite javiti neuređeni dio teme ili bilo koje druge bugove molim vas da otvorite "issue" (ili napravite PR sto je puno lakše za mene)!
 
 ## ⭐ Značajke
-- [Discolored](https://github.com/NYRI4/Discolored) and [RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) već ugrađeno
+- [Discolored](https://github.com/NYRI4/Discolored) i [RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) već ugrađeno
 - Uređivanje sa varijablama (AvatarRadius itd.)
 - Ljepe ljubičaste boje
 - Nema uklonjenih značajka (Uvijek mrzim kada teme uklone neke discord značajke)
