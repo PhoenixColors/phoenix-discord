@@ -98,4 +98,5 @@
 ## [0.1.0] - 2021-07-23
 - Initial release
 
+[Unreleased]: https://github.com/PhoenixColors/phoenix-discord/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/PhoenixColors/phoenix-discord/compare/v0.3.4...v1.0.0
