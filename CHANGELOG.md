@@ -5,7 +5,7 @@
 
 ## [Unreleased]
 ### Added
-- Croatian translation from [@sheepdev](https://github.com/sheepdev)
+- Croatian translation from [@sheeepdev](https://github.com/sheepdev)
 
 ## [1.0.0] - 2021-10-11
 ### Added
