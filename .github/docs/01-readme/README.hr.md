@@ -1,6 +1,6 @@
 # <img src="assets/icon.png" height="32px"> Phoenix</img>
 ![Banner](assets/banner.png)<hr>
-<kbd>[<img title="German" alt="Njemacki" src="assets/languages/de.png">](.github/docs/01-readme/README.de.md)</kbd>
+<kbd>[<img title="German" alt="Njemacki" src="../../../assets/languages/de.png">](.github/docs/01-readme/README.de.md)</kbd>
 <kbd>[<img title="English" alt="Engleski" src="../../../assets/languages/en.png">](../../../README.md)</kbd>
 
 ## ⚠️ Bilješka
