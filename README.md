@@ -1,6 +1,6 @@
 # <img src="assets/icon.png" height="32px"> Phoenix</img>
 ![Banner](assets/banner.png)<hr>
-<kbd>[<img title="German" alt="German" src="assets/languages/de.png">](.github/docs/01-readme/README.de.md)</kbd>
+<kbd>[<img title="German" alt="Deutsch" src="assets/languages/de.png">](.github/docs/01-readme/README.de.md)</kbd>
 <kbd>[<img title="Croatian" alt="Hrvatski" src="assets/languages/hr.png">](.github/docs/01-readme/README.hr.md)</kbd>
 
 ## ⚠️ NOTE
