@@ -1,9 +1,7 @@
 # <img src="../../../assets/icon.png" height="32px"> Phoenix</img>
 ![Banner](../../../assets/banner.png)<hr>
 <kbd>[<img title="Englisch" alt="Englisch" src="../../../assets/languages/en.png">](../../../README.md)</kbd>
-
-## ⚠️ NOTE
-Dieses Theme befindet sich zurzeit in der Beta-Phase und es kann sein, dass es Bugs gibt und das Theme an manchen Stellen nicht so bleibt, wie es aussieht. Wenn ihr nicht gethemedte Teile oder andere Bugs melden wollt, öffnet bitte ein Issue (oder mache einen PR, was für mich viel einfacher ist)!
+<kbd>[<img title="Kroatisch" alt="Kroatisch" src="../../../assets/languages/hr.png">](.github/docs/01-readme/README.hr.md)</kbd>
 
 ## ⭐ Features
 - [Discolored](https://github.com/NYRI4/Discolored) und [RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) eingebaut

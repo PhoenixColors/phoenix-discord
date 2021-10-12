@@ -6,6 +6,9 @@
 ## [Unreleased]
 ### Added
 - Croatian translation from [@sheeepdev](https://github.com/sheeepdev)
+- Croatian image to German README
+### Removed
+- `⚠️ Note` section
 
 ## [1.0.0] - 2021-10-11
 ### Added
