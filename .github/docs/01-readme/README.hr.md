@@ -1,7 +1,7 @@
 # <img src="../../../assets/icon.png" height="32px"> Phoenix</img>
 ![Banner](../../../assets/banner.png)<hr>
-<kbd>[<img title="German" alt="Njemacki" src="../../../assets/languages/de.png">](.github/docs/01-readme/README.de.md)</kbd>
-<kbd>[<img title="English" alt="Engleski" src="../../../assets/languages/en.png">](../../../README.md)</kbd>
+<kbd>[<img title="Njemacki" alt="Njemacki" src="../../../assets/languages/de.png">](.github/docs/01-readme/README.de.md)</kbd>
+<kbd>[<img title="Engleski" alt="Engleski" src="../../../assets/languages/en.png">](../../../README.md)</kbd>
 
 ## ⚠️ Bilješka
 Ova tema je u beta procesu i možda ćete naići na bugove i možda tema neće ostati ista u drugim dijelovima. Ako želite javiti neuređeni dio teme ili bilo koje druge bugove molim vas da otvorite "issue" (ili napravite PR sto je puno lakše za mene)!
