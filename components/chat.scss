@@ -70,6 +70,70 @@
     }
 }
 
+// Status Picker
+/* Inline status selection */
+#status-picker {
+	.mask-1qbNWk {
+		height: 75%;
+		width: 75%;
+		margin-left: 33%;
+	}
+	>.scrollerBase-289Jih {
+		display: grid;
+	}
+	.separator-2I32lJ {
+		display: none;
+	}
+	.description-2L932D {
+		display: none;
+	}
+	.item-1tOPte {
+		&:not(#status-picker-custom-status) {
+			.status-1fhblQ {
+				display: none;
+			}
+		}
+	}
+}
+#status-picker-custom-status {
+	grid-column: 1/5;
+}
+
+#status-picker-online {
+	--status-colour: var(--bsi-online-color, rgb(59, 165, 92));
+}
+#status-picker-idle {
+	--status-colour: var(--bsi-idle-color, rgb(250, 166, 26));
+}
+#status-picker-dnd {
+	--status-colour: var(--bsi-dnd-color, rgb(237, 66, 69));
+}
+#status-picker-invisible {
+	--status-colour: var(--bsi-invisible-color, rgb(116, 127, 141));
+}
+#status-picker {
+	.item-1tOPte {
+		&:not(#status-picker-custom-status) {
+			&:active {
+				background-color: var(--status-colour);
+			}
+		}
+		&:not(#status-picker-custom-status).focused-3afm-j {
+			background-color: var(--status-colour);
+		}
+		&:active {
+			.status-1AY8sU {
+				background-color: white !important;
+			}
+		}
+	}
+	.item-1tOPte.focused-3afm-j {
+		.status-1AY8sU {
+			background-color: white !important;
+		}
+	}
+}
+
 // -Delete Popout-
 .message-2qRu38 {
     background-color: var(--background-primary) !important;

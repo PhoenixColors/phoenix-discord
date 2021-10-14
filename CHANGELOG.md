@@ -3,10 +3,13 @@
 >
 >The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.1.0] - 2021-10-12
 ### Added
 - Croatian translation from [@sheeepdev](https://github.com/sheeepdev)
-- Croatian image to German README
+- Croatian image to German & English README
+- Compact Statuspicker
+### Fixed
+- wrong version number in the CHANGELOG
 ### Removed
 - `⚠️ Note` section
 
@@ -26,7 +29,7 @@
 ### Fixed
 - Wrong name in settings
 ### Removed
-- Contributors in the Changelog
+- Contributors in the CHANGELOG
 
 ## [0.3.4] - 2021-09-23
 ### Added
@@ -61,7 +64,7 @@
 - Support for BetterDiscord
 - CSS Support
 
-## [0.3.0] - 2021-9-15
+## [0.2.0] - 2021-9-15
 ### Commit
 - 869a463d7689a27b0bab8d20931ad2d8d7852b0f
 
@@ -69,7 +72,7 @@
 ### Added
 - Instructions for Vizality
 ### Changed
-- New name also in the Changelog
+- New name also in the CHANGELOG
 ### Fixed
 - Fixed invalid manifest file for VZ
 
@@ -77,11 +80,11 @@
 ## Added
 - Instructions for GooseMod
 - New Icon for the Theme
-- updated README.md with new local icon
+- Updated README.md with new local icon
 ## Changed
 - New Name (Phoenix)
 ## Removed
-- old Icons
+- Old Icons
 
 ## [0.1.3] - 2021-07-26
 ### Added
@@ -96,10 +99,10 @@
 - Updated the name in the Powercord manifest
 - Updated the description in the Powercord manifest
 ### Added
-- Added a Changelog
+- Added a CHANGELOG
 
 ## [0.1.0] - 2021-07-23
 - Initial release
 
-[Unreleased]: https://github.com/PhoenixColors/phoenix-discord/compare/v1.0.0...HEAD
+[1.1.0]: https://github.com/PhoenixColors/phoenix-discord/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/PhoenixColors/phoenix-discord/compare/v0.3.4...v1.0.0
