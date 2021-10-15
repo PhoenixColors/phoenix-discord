@@ -25,7 +25,7 @@ Koristite ugradeni "dućan".
     - Windows: `%AppData%\betterdiscord\themes`
     - Linux: `~/.config/BetterDiscord/themes`
     - Mac: `~/Library/Application Support/betterdiscord/themes`
-3. U Discord otiđite u `Korisnicke Postavke > Themes/Theme` i aktivirajte *Phoenix*
+3. U Discord otiđite u `Korisničke Postavke > Themes (Teme)` i aktivirajte *Phoenix*
 
 ## ️️️❤️ Zasluge
 * Uzimao sam puno inspiracije od [Couve](https://github.com/NYRI4/Couve) i [Comfy](https://github.com/NYRI4/Comfy/) od Nyria. Hvala ti puno!
