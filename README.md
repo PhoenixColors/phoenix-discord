@@ -16,7 +16,14 @@
 `git clone https://github.com/Pukimaa/phoenix-discord` in your Themes Folder
 
 ### 🦆 GooseMod
-Use the built in Store
+You have two options:
+1. Use the Module which is in the official Store (mostly outdated version though)
+2. Import the Module from myself which will have the latest version
+    - Go to the Themes section in home
+    - Click on the little cloud icon in the upper right corner
+    - in the texbar down below paste in: `https://phoenixcolors.github.io/phoenix-discord/goosemod/goosemodModule.json`
+    - Click on *Add*
+    - Now when you exit the Popup and you search up *Phoenix (Pukima build)* in the Themes section you can see this Theme and can install it 
 
 ### 🔵 BetterDiscord
 1. Download this file: https://phoenixcolors.github.io/phoenix-discord/phoenix.theme.css

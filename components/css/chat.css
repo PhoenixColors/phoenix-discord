@@ -150,6 +150,14 @@
   background-color: var(--background-secondary-alt);
 }
 
+.scroller-1-nKid {
+  background: var(--background-secondary) !important;
+}
+
+.reactors-Blmlhw {
+  background-color: var(--background-primary) !important;
+}
+
 .message-2qnXI6.mentioned-xhSam7 {
   background-color: var(--mention-color-background);
 }

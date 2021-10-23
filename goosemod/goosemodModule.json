@@ -1,0 +1,9 @@
+{
+    "main": "goosemod.js",
+    "version": "1.2.0",
+    "name": "Phoenix (Pukima build)",
+    "description": "Glow up while chatting",
+    "tags": ["theme"],
+    "authors": ["751092600890458203"],
+    "images": ["https://phoenixcolors.github.io/phoenix-discord/assets/preview.png"]
+}
