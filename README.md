@@ -21,7 +21,7 @@ You have two options:
 2. Import the Module from myself which will have the latest version
     - Go to the Themes section in home
     - Click on the little cloud icon in the upper right corner
-    - in the texbar down below paste in: `https://phoenixcolors.github.io/phoenix-discord/goosemod/goosemodModule.json`
+    - in the texbar down below paste in: `https://phoenixcolors.github.io/phoenix-discord/goosemod/modules.json`
     - Click on *Add*
     - Now when you exit the Popup and you search up *Phoenix (Pukima build)* in the Themes section you can see this Theme and can install it 
 
