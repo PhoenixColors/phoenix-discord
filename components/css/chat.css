@@ -14,7 +14,6 @@
   background: var(--background-secondary) !important;
   border: none;
 }
-
 .invite-18yqGF:hover {
   background: var(--background-secondary-alt) !important;
 }
@@ -30,86 +29,90 @@
 .perksModal-fSYqOq {
   background-color: var(--background-primary) !important;
 }
-
 .perksModal-fSYqOq .barBackground-2EEiLw {
   background-color: var(--background-tertiary);
 }
-
 .perksModal-fSYqOq .tierMarkerGroup-xg6A1d .tierMarkerBackground-3q29am {
   background-color: var(--background-primary);
 }
-
 .perksModal-fSYqOq .tierMarkerGroup-xg6A1d .tierMarkerInProgress-24LMzJ {
   background: #12131f !important;
 }
-
 .perksModal-fSYqOq .tierHeaderLocked-1s2JJz {
   background-color: var(--background-floating);
 }
-
 .perksModal-fSYqOq .tierBody-16Chc9 {
   background-color: var(--background-tertiary);
 }
-
 .perksModal-fSYqOq .perk-2WeBWW {
   background-color: var(--background-secondary);
 }
 
-/* Inline status selection */
 #status-picker .mask-1qbNWk {
   height: 75%;
   width: 75%;
-  margin-left: 33%;
+  margin-left: 25%;
+  margin-top: 10%;
 }
-
 #status-picker > .scrollerBase-289Jih {
   display: grid;
 }
-
 #status-picker .separator-2I32lJ {
   display: none;
 }
-
 #status-picker .description-2L932D {
   display: none;
 }
-
 #status-picker .item-1tOPte:not(#status-picker-custom-status) .status-1fhblQ {
+  display: none;
+}
+#status-picker div[role=group] {
+  display: grid;
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+#status-picker div[role=group] .customEmoji-2_2FwB {
+  height: 24px;
+  width: 24px;
+}
+#status-picker div[role=group] .iconContainer-2-XQPY {
   display: none;
 }
 
 #status-picker-custom-status {
-  grid-column: 1/5;
+  width: 93%;
+  padding: 8px 2px;
+  grid-column: 1/6;
+}
+#status-picker-custom-status .customEmojiPlaceholder-37iZ_j {
+  background-image: url("https://discord.com/assets/7c010dc6da25c012643ea22c1f002bb4.svg");
 }
 
 #status-picker-online {
-  --status-colour: var(--bsi-online-color, #3ba55c);
+  --status-colour: var(--bsi-online-color, rgb(59, 165, 92));
 }
 
 #status-picker-idle {
-  --status-colour: var(--bsi-idle-color, #faa61a);
+  --status-colour: var(--bsi-idle-color, rgb(250, 166, 26));
 }
 
 #status-picker-dnd {
-  --status-colour: var(--bsi-dnd-color, #ed4245);
+  --status-colour: var(--bsi-dnd-color, rgb(237, 66, 69));
 }
 
 #status-picker-invisible {
-  --status-colour: var(--bsi-invisible-color, #747f8d);
+  --status-colour: var(--bsi-invisible-color, rgb(116, 127, 141));
 }
 
 #status-picker .item-1tOPte:not(#status-picker-custom-status):active {
   background-color: var(--status-colour);
 }
-
 #status-picker .item-1tOPte:not(#status-picker-custom-status).focused-3afm-j {
   background-color: var(--status-colour);
 }
-
 #status-picker .item-1tOPte:active .status-1AY8sU {
   background-color: white !important;
 }
-
 #status-picker .item-1tOPte.focused-3afm-j .status-1AY8sU {
   background-color: white !important;
 }
@@ -140,7 +143,6 @@
 .theme-dark .container-3ayLPN {
   background: var(--background-secondary);
 }
-
 .theme-dark .container-3ayLPN .option-96V44q:after {
   display: none;
 }
@@ -161,12 +163,10 @@
 .message-2qnXI6.mentioned-xhSam7 {
   background-color: var(--mention-color-background);
 }
-
 .message-2qnXI6.mentioned-xhSam7::before {
   background: var(--mention-color-bar);
   padding: 1px;
 }
-
 .message-2qnXI6.mentioned-xhSam7:hover {
   background-color: var(--mention-color-hover) !important;
 }
@@ -179,7 +179,6 @@
 .autocomplete-1vrmpx {
   background-color: var(--background-secondary-alt) !important;
 }
-
 .autocomplete-1vrmpx .selected-1Tbx07 {
   background-color: var(--background-secondary) !important;
 }
@@ -199,7 +198,6 @@
 .uploadModal-2ifh8j {
   background-color: var(--background-primary) !important;
 }
-
 .uploadModal-2ifh8j .footer-3mqk7D {
   background-color: var(--background-secondary) !important;
   box-shadow: none;

@@ -71,12 +71,13 @@
 }
 
 // Status Picker
-/* Inline status selection */
+// Inline status selection
 #status-picker {
 	.mask-1qbNWk {
 		height: 75%;
 		width: 75%;
-		margin-left: 33%;
+        margin-left: 25%;
+        margin-top: 10%;
 	}
 	>.scrollerBase-289Jih {
 		display: grid;
@@ -94,11 +95,33 @@
 			}
 		}
 	}
-}
-#status-picker-custom-status {
-	grid-column: 1/5;
+
+    // Account Switcher
+    div[role="group"] {
+        display: grid;
+        grid-column: 5/6;
+        grid-row: 1/2;
+
+        .customEmoji-2_2FwB {
+            height: 24px;
+            width: 24px;
+        }
+        
+        .iconContainer-2-XQPY {
+            display: none;
+        }
+    }
 }
 
+#status-picker-custom-status {
+    width: 93%;
+    padding: 8px 2px;
+	grid-column: 1/6;
+
+    .customEmojiPlaceholder-37iZ_j {
+        background-image: url('https://discord.com/assets/7c010dc6da25c012643ea22c1f002bb4.svg');
+    }
+}
 #status-picker-online {
 	--status-colour: var(--bsi-online-color, rgb(59, 165, 92));
 }

@@ -3,6 +3,14 @@
 >
 >The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2021-10-20
+### Added
+- Overall improvements for the Status Picker
+### Fixed
+- Account Switcher
+- Sessions (Plugin for Powercord) activity being too small to fit Spotify stuff 
+- Wrong version links
+
 ## [1.1.0] - 2021-10-12
 ### Added
 - Croatian translation from [@sheeepdev](https://github.com/sheeepdev)
@@ -104,6 +112,6 @@
 ## [0.1.0] - 2021-07-23
 - Initial release
 
-[1.1.0]: https://github.com/PhoenixColors/phoenix-discord/compare/v1.1.0...v1.1.0
+[1.1.1]: https://github.com/PhoenixColors/phoenix-discord/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/PhoenixColors/phoenix-discord/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/PhoenixColors/phoenix-discord/compare/v0.3.4...v1.0.0

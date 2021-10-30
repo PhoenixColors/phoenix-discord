@@ -24,6 +24,10 @@
   transition: 0.2s;
 }
 
+.sessionCard-activity {
+  width: 100% !important;
+}
+
 .modal-yWgWj- {
   background-color: var(--background-secondary) !important;
 }

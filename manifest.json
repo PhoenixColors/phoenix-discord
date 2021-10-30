@@ -2,7 +2,7 @@
     "icon": "assets/icon.png",
     "name": "Phoenix",
     "description": "Glow up while chatting",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "Pukima",
     "license": "MIT",
     "theme": "app.scss"
