@@ -17,8 +17,7 @@
   color: var(--wordmark-text-color);
   height: 19px;
   width: 235px;
-  -webkit-transform: translateY(-8%);
-          transform: translateY(-8%);
+  transform: translateY(-8%);
   line-height: 20px;
 }
 
@@ -53,21 +52,17 @@
 }
 
 .tile-2OwFgW {
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   overflow: hidden;
   background-color: var(--background-secondary) !important;
 }
-
 .tile-2OwFgW:hover {
   background: var(--background-secondary-alt) !important;
 }
-
 .tile-2OwFgW .invalidPoop-pnUbq7 {
   background: var(--background-secondary-alt-alt);
   position: relative;
 }
-
 .tile-2OwFgW .invalidPoop-pnUbq7::after {
   content: ">_<";
   -webkit-animation: blink 2.5s;
@@ -79,18 +74,14 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
 .tile-2OwFgW .description-1RsfgZ {
   color: #fff;
 }
-
 .tile-2OwFgW .description-1RsfgZ .tagline-2nvxi0 {
   color: #eee;
 }
-
 .tile-2OwFgW .splash-3K76bN {
   content: "";
   position: fixed;
@@ -103,12 +94,9 @@
   background-size: cover;
   background-position: 50% 50%;
   z-index: -1;
-  opacity: .3;
-  -webkit-filter: blur(20px);
-          filter: blur(20px);
-  mask-image: -webkit-gradient(linear, left top, left bottom, from(#000b), to(#000b));
+  opacity: 0.3;
+  filter: blur(20px);
   mask-image: linear-gradient(#000b, #000b);
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#000b), to(#000b));
   -webkit-mask-image: linear-gradient(#000b, #000b);
 }
 
@@ -123,11 +111,9 @@
           mask: none !important;
   rx: 30;
 }
-
 .pointerEvents-2zdfdO[mask="url(#svg-mask-status-typing)"] {
   rx: 6;
 }
-
 .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
   rx: 4;
 }
@@ -163,14 +149,12 @@
 }
 
 .root-1gCeng {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .footer-2gL1pp {
   background-color: var(--background-tertiary) !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 @-webkit-keyframes blink {
@@ -201,5 +185,4 @@
   100% {
     content: "-_-";
   }
-}
-/*# sourceMappingURL=other.css.map */
+}/*# sourceMappingURL=other.css.map */

@@ -20,10 +20,8 @@
 }
 
 .wrapper-25eVIn foreignObject {
-  -webkit-transition: border-radius 200ms;
   transition: border-radius 200ms;
 }
-
 .wrapper-25eVIn foreignObject:hover foreignObject {
   border-radius: calc(var(--server-radius) - 3px);
 }
@@ -35,7 +33,6 @@
   background: url("https://svgshare.com/i/WEo.svg") no-repeat;
   background-size: 23px;
 }
-
 .muteText-gutGxh:before {
   content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
 }
@@ -51,5 +48,4 @@
 
 .pageWrapper-1PgVDX {
   background-color: var(--background-primary) !important;
-}
-/*# sourceMappingURL=server-list.css.map */
+}/*# sourceMappingURL=server-list.css.map */
