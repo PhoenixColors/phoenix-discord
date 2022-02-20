@@ -1,5 +1,7 @@
 .contentRegion-3nDuYy {
-  flex: 1 1 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
 }
 
 .contentColumn-2hrIYH, .customColumn-Rb6toI,
@@ -25,9 +27,10 @@
 }
 
 .info-1VyQPT:after {
-  content: "Phoenix v1.1.1";
+  content: "Phoenix v1.1.2";
   text-transform: none;
   font-size: 12px;
   line-height: 16px;
   color: var(--text-muted);
 }
+/*# sourceMappingURL=settings.css.map */

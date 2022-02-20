@@ -38,7 +38,7 @@
 }
 
 // Nitro Boosts
-.perksModal-fSYqOq {
+.perksModal-CLcR1c {
     background-color: var(--background-primary) !important;
     
     // Bar
@@ -61,11 +61,11 @@
         background-color: var(--background-floating);
     }
 
-    .tierBody-16Chc9 {
+    .tierBody-3ju-rc {
         background-color: var(--background-tertiary);
     }
 
-    .perk-2WeBWW {
+    .perk-19D_HN {
         background-color: var(--background-secondary);
     }
 }
@@ -163,23 +163,26 @@
 }
 
 // Chat Window
-.content-98HsJk {
-    padding: 8px;
+.content-2eQb8J, .content-2hZxGK {
+    background-color: var(--background-primary);
 }
 
-.scroller-1Bvpku {
-    top: 8px;
-    height: calc(100% - 8px);
+.footer-31IekZ {
+    background-color: var(--background-secondary) !important;
 }
 
-.sidebar-2K8pFh {
+.sidebar-1tnWFu {
     border-bottom-left-radius: 8px !important;
     border-top-left-radius: 8px !important;
 }
 
-.chat-3bRxxu {
+.chat-2ZfjoI {
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+.base-2jDfDU {
+    margin: 5px 8px 8px 5px;
 }
 
 // Search

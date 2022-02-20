@@ -1,42 +1,5 @@
-// DM Tabs
-#private-channels > [class*="content-"] {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-}
-#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) {
-  flex-grow: 1;
-  margin-top: 8px !important; 
-  margin-left: 0;
-  margin-right: 8px !important;
-}
-#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]):first-of-type {
-  margin-left: 8px !important;
-}
-#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="layout-"] {
-  justify-content: center;
-  padding: 0 !important;
-}
-#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="avatar-"] {
-  margin: 0 !important;
-}
-#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="content-"] {
-  display: none;
-}
-#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="children-"] {
-  position: absolute;
-  transform: translate(4px, 8px);
-  border-radius: 100px;
-}
-#private-channels > [class*="content-"] > h2 {
-  width: 100%;
-}
-#private-channels > [class*="content-"] > a[href*="/channels/@me/"] {
-  width: 100%;
-}
-
 // Friend column
-.peopleColumn-29fq28 { background: var(--background-primary);}
+.peopleColumn-1wMU14 { background: var(--background-primary);}
 
 // Friend activities
 .nowPlayingColumn-2sl4cE { 

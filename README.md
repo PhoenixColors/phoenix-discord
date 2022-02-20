@@ -2,6 +2,7 @@
 ![Banner](assets/banner.png)<hr>
 <kbd>[<img title="German" alt="German" src="assets/languages/de.png">](.github/docs/01-readme/README.de.md)</kbd>
 <kbd>[<img title="Croatian" alt="Croatian" src="assets/languages/hr.png">](.github/docs/01-readme/README.hr.md)</kbd>
+
 ## ⭐ Features
 - [Discolored](https://github.com/NYRI4/Discolored) and [RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) built in
 - Customization via variables (Avatarradius etc.)
@@ -19,7 +20,7 @@
 Use the built in store
 
 ### 🔵 BetterDiscord
-1. Download this file: https://phoenixcolors.github.io/phoenix-discord/phoenix.theme.css
+1. Download this file: https://phoenixcolors.github.io/phoenix-discord/phoenix.theme.css (`Ctrl` + `S` on the Site)
 2. Place the file into:
     - Windows: `%AppData%\betterdiscord\themes`
     - Linux: `~/.config/BetterDiscord/themes`

@@ -1,18 +1,24 @@
-.side-8zPYf6 > div[data-item-id=pc-moduleManager-themes],
-.side-8zPYf6 > div[data-item-id=pc-moduleManager-themes] ~ div {
-  order: 3;
+.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"],
+.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"] ~ div {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
 }
 
-.side-8zPYf6 > div[data-item-id=theme-toggler] {
-  order: 2 !important;
+.side-8zPYf6 > div[data-item-id="theme-toggler"] {
+  -webkit-box-ordinal-group: 3 !important;
+      -ms-flex-order: 2 !important;
+          order: 2 !important;
 }
 
 .powercord-spotify .button-14-BFJ.enabled-2cQ-u7:hover {
   background-color: transparent;
 }
+
 .powercord-spotify .spotify-seek-bar-progress {
   position: absolute;
   height: 56px !important;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
   bottom: 0px;
   z-index: -1;
@@ -21,6 +27,7 @@
 
 .powercord-spotify.hover .spotify-seek-bar-progress {
   height: 83px !important;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -47,3 +54,4 @@
   display: inline-block;
   position: relative;
 }
+/*# sourceMappingURL=support.css.map */
